@@ -112,7 +112,7 @@ hr{height: 3px; color:#F3F3F3; background-color: #F3F3F3; border:0; max-width:80
 .hero .block.four img:last-child{animation: fadeEight 20s infinite; opacity: 0; transform: translateY(40px) scale(0.8); transition-timing-function: ease-in-out;}
 
 .list{padding:0 25px 0 35px;}
-.list h3{position: relative; padding-left:26px; margin:0; font-size: 0.9rem;}
+.list h3{position: relative; padding-left:26px; margin:0;}
 .list h3 img{position: absolute; width:28px; top:-4px; left:-6px;}
 
 
