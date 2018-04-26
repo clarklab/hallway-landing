@@ -54,6 +54,8 @@ h1,h2,h3,h4,h5,h6{font-weight: 500}
 p{line-height: 1.5}
 .small{font-size:90%;}
 
+.clearfix{padding:0 30px;}
+
 .button{display: block; text-align:center; margin-bottom:1rem;  border-radius:100px; padding:1rem 1.5rem; font-weight: bold; background-color:var(--white); color:var(--black); text-decoration: none; transition:.2s ease transform; }
 .button.bg-blue{background-color:var(--blue); color:var(--white);}
 .button.bg-black{background-color:var(--black); color:var(--teal);}
@@ -61,7 +63,7 @@ p{line-height: 1.5}
 
 .hero {position: relative; margin-bottom:30%; padding-top:6rem;}
 .hero .max-width-4{position: relative;}
-.logo{position: fixed; top:1rem; left:1rem; width:32px; height: auto;}
+.logo{position: fixed; top:1rem; left:1rem; width:26px; height: auto;}
 .hero .button.absolute{top:1rem; right:1rem;}
 
 .clipper{position: absolute; top:0; left:0; right:0; bottom:0; clip: rect(0, auto, auto, 0);}
@@ -170,6 +172,9 @@ svg {
 
 @media screen and (min-width: 40em){
 	h1{font-size: 4rem;}
+
+.logo{width:32px;}
+
 
 	.button{display: inline-block;}
 
