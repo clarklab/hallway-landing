@@ -56,6 +56,10 @@ h1{font-size: 1.65rem;}
 
 h1,h2,h3,h4,h5,h6,p{line-height: 1.5; text-align: center;}
 p.small{font-size:90%;}
+p.larger{font-size:120%;}
+.light{opacity: .3;}
+
+hr{height: 3px; color:#F3F3F3; background-color: #F3F3F3; border:0; max-width:80%;}
 
 .clearfix{padding:0 30px;}
 
@@ -63,6 +67,12 @@ p.small{font-size:90%;}
 .button.bg-blue{background-color:var(--blue); color:var(--white);}
 .button.bg-black{background-color:var(--black); color:var(--teal);}
 .button:hover{transform: scale(1.1);}
+
+.login .button{background-repeat: no-repeat; background-size: 32px auto; background-position: 10px 50%; padding-left:48px;}
+.button.facebook{background-color:var(--blue); color:var(--white); background-image: url(../images/icon/facebook.svg);}
+.button.twitter{background-color:#3CC3FF; color:var(--white); background-image: url(../images/icon/twitter.svg);}
+.button.google{background-color:#D0021B; color:var(--white); background-image: url(../images/icon/google.svg);}
+.login .underline{border-bottom:2px solid var(--blue); color:#000; text-decoration: none}
 
 .hero {position: relative; margin-bottom:30%; padding-top:5rem;}
 .hero .max-width-4{position: relative;}
@@ -183,6 +193,7 @@ svg {
   .logo{width:32px;}
 
 	.button{display: inline-block;}
+  .login .button{display: block; max-width: 250px; margin-left:auto; margin-right:auto;}
 
 	.hero{padding-top:8rem; padding-bottom: 2rem;}
 	.hero .button{margin:0 5px;}

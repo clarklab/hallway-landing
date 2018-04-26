@@ -5,6 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Hallway</title>
 	<link href="https://unpkg.com/basscss@8.0.2/css/basscss.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/tingle.min.css">
 	<link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -25,7 +26,7 @@
 	<img src="images/arms-top.svg" alt="" class="arms top">
 	<img src="images/arms-pointing.svg" alt="" class="arms left">
 	<img src="images/arms-writing.svg" alt="" class="arms right">
-	<a class="button absolute" href="#">Sign In</a>
+	<a class="button signin absolute" href="#">Sign In</a>
 	<div class="max-width-4 mx-auto center">
 		<div class="intro mb3 clearfix">
 			<h1 class="mb0">Good online meetings</h1>
@@ -275,8 +276,21 @@
 	</div>
 </footer>
 
+<div class="modal hide" id="login">
+<div class="login center">
+	<h2>Hallway</h2>
+	<hr>
+	<p class="light larger">Sign in using your existing account</p>
+	<a href="#" class="button facebook">Log in with Facebook</a>
+	<a href="#" class="button twitter">Log in with Twitter</a>
+	<a href="#" class="button google">Log in with Google</a>
+	<p class="mt3"><a href="#" class="underline">Need Help?</a></p>
+</div>
+</div>
+
 <script type="text/javascript" src='https://code.jquery.com/jquery-3.2.1.min.js'></script>
 <script type="text/javascript" src='js/scrollreveal.min.js'></script>
+<script type="text/javascript" src="js/tingle.min.js"></script>
 
 <script>
 
@@ -289,8 +303,39 @@ window.sr = ScrollReveal();
         el.classList.remove('animated');
       }
     });
-    sr.reveal(".list .col", {easing: 'ease-in-out'}, 50)
-    sr.reveal(".product img", {easing: 'ease-in-out'})
+    sr.reveal(".list .col", {easing: 'ease-in-out'}, 50);
+    sr.reveal(".product img", {easing: 'ease-in-out'});
+
+    // instanciate new modal
+var modal = new tingle.modal({
+    footer: false,
+    stickyFooter: false,
+    closeMethods: ['overlay', 'button', 'escape'],
+    closeLabel: "Close",
+    cssClass: ['custom-class-1', 'custom-class-2'],
+    onOpen: function() {
+        console.log('modal open');
+    },
+    onClose: function() {
+        console.log('modal closed');
+    },
+    beforeClose: function() {
+        // here's goes some logic
+        // e.g. save content before closing the modal
+        return true; // close the modal
+        return false; // nothing happens
+    }
+});
+
+// set content
+modal.setContent(document.querySelector('#login').innerHTML);
+
+var login = document.querySelector('.button.signin');
+
+login.addEventListener('click', function(){
+    modal.open();
+    event.preventDefault();
+});
 
 </script>
 
