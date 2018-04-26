@@ -26,13 +26,13 @@
 	<img src="images/arms-top.svg" alt="" class="arms top">
 	<img src="images/arms-pointing.svg" alt="" class="arms left">
 	<img src="images/arms-writing.svg" alt="" class="arms right">
-	<a class="button signin absolute" href="#">Sign In</a>
+	<a class="small underline white signin absolute" href="#">Sign In</a>
 	<div class="max-width-4 mx-auto center">
 		<div class="intro mb3 clearfix">
 			<h1 class="mb0">Good online meetings</h1>
 			<p class="mb3">Flexible meeting rooms so good we had to put it in the name. <br class="xs-hide sm-hide md-hide">Meet face-to-face with friends, coworkers, and family.</p>
 			<a class="button" href="#">Create Room</a> 
-			<a class="button bg-black" href="#">Or See Why</a>
+			<a class="button bg-black why" href="#">Or See Why</a>
 		</div>
 		<div class="blocks clearfix">
 			<div class="block one">
@@ -93,7 +93,7 @@
 		<h2 class="mt4 pt2">Made for teams</h2>
 		<p class="max-width-2 mx-auto">Hallway is a remote team. We all came from remote teams. We're tired of the clunky tools and the "can you hear me" moments.</p>
 	</div>
-	<p class="line-height-0 m0 svg-wrap">
+	<div class="line-height-0 m0 svg-wrap">
 	<svg xmlns="http://www.w3.org/2000/svg" width="1995" height="auto" viewbox="0 0 1995 612" class="fit">
   <style>
     @keyframes nine_t { 0% { transform: translate(1752px,300px); } 55.5555% { transform: translate(1752px,300px); animation-timing-function: cubic-bezier(0.42,0,0.58,1); } 70.3703% { transform: translate(1752px,-316px); } 100% { transform: translate(1752px,-316px); } }
@@ -200,44 +200,44 @@
   </g>
 </svg>
 
-	</p>
+	</div>
 </div>
 
 <div class="list clearfix pt4 mb4 pb4">
-	<div class="max-width-4 mx-auto">
-		<div class="col col-6 sm-col-4 mb1 p2">
+	<div class="max-width-4 mx-auto p2">
+		<div class="sm-col sm-col-4 mb1 p2">
 			<h3 class="left-align"><img src="images/icon/doc.svg" alt="">Live Notes</h3>
 			<p class="mt1 left-align">Etiam porta sem malesuada magna mollis euismod. Lorem sem ipsum dolor sit amet porta magna.</p>
 		</div>
-		<div class="col col-6 sm-col-4 mb1 p2">
+		<div class="sm-col sm-col-4 mb1 p2">
 			<h3 class="left-align"><img src="images/icon/pointer.svg" alt="">Shared Space</h3>
 			<p class="mt1 left-align">Etiam porta sem malesuada magna mollis euismod. Lorem sem ipsum dolor sit amet porta magna.</p>
 		</div>
-		<div class="col col-6 sm-col-4 mb1 p2">
+		<div class="sm-col sm-col-4 mb1 p2">
 			<h3 class="left-align"><img src="images/icon/video.svg" alt="">Video Chat</h3>
 			<p class="mt1 left-align">Etiam porta sem malesuada magna mollis euismod. Lorem sem ipsum dolor sit amet porta magna.</p>
 		</div>
-		<div class="col col-6 sm-col-4 mb1 p2">
+		<div class="sm-col sm-col-4 mb1 p2">
 			<h3 class="left-align"><img src="images/icon/chat.svg" alt="">Team Chat</h3>
 			<p class="mt1 left-align">Etiam porta sem malesuada magna mollis euismod. Lorem sem ipsum dolor sit amet porta magna.</p>
 		</div>
-		<div class="col col-6 sm-col-4 mb1 p2">
+		<div class="sm-col sm-col-4 mb1 p2">
 			<h3 class="left-align"><img src="images/icon/clouds.svg" alt="">Cloud Files</h3>
 			<p class="mt1 left-align">Etiam porta sem malesuada magna mollis euismod. Lorem sem ipsum dolor sit amet porta magna.</p>
 		</div>
-		<div class="col col-6 sm-col-4 mb1 p2">
+		<div class="sm-col sm-col-4 mb1 p2">
 			<h3 class="left-align"><img src="images/icon/spreadsheets.svg" alt="">Spreadsheets</h3>
 			<p class="mt1 left-align">Etiam porta sem malesuada magna mollis euismod. Lorem sem ipsum dolor sit amet porta magna.</p>
 		</div>
-		<div class="col col-6 sm-col-4 mb1 p2">
+		<div class="sm-col sm-col-4 mb1 p2">
 			<h3 class="left-align"><img src="images/icon/photos.svg" alt="">Photos</h3>
 			<p class="mt1 left-align">Etiam porta sem malesuada magna mollis euismod. Lorem sem ipsum dolor sit amet porta magna.</p>
 		</div>
-		<div class="col col-6 sm-col-4 mb1 p2">
+		<div class="sm-col sm-col-4 mb1 p2">
 			<h3 class="left-align"><img src="images/icon/todo.svg" alt="">Tasks</h3>
 			<p class="mt1 left-align">Etiam porta sem malesuada magna mollis euismod. Lorem sem ipsum dolor sit amet porta magna.</p>
 		</div>
-		<div class="col col-6 sm-col-4 mb1 p2">
+		<div class="sm-col sm-col-4 mb1 p2">
 			<h3 class="left-align"><img src="images/icon/calendar.svg" alt="">Calendar</h3>
 			<p class="mt1 left-align">Etiam porta sem malesuada magna mollis euismod. Lorem sem ipsum dolor sit amet porta magna.</p>
 		</div>
@@ -330,12 +330,23 @@ var modal = new tingle.modal({
 // set content
 modal.setContent(document.querySelector('#login').innerHTML);
 
-var login = document.querySelector('.button.signin');
+var login = document.querySelector('.signin');
 
 login.addEventListener('click', function(){
     modal.open();
     event.preventDefault();
 });
+
+var learn = document.querySelector('.why');
+
+learn.addEventListener('click', function(){
+    document.querySelector('.feature').scrollIntoView({ 
+	  behavior: 'smooth' 
+	});
+    event.preventDefault();
+});
+
+
 
 </script>
 
