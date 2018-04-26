@@ -39,6 +39,8 @@
   --teal: #0BF7F3;
 }
 
+a{text-decoration: none; color:var(--blue);}
+
 .blue{ color:var(--blue); }
 .bg-blue{ background-color:var(--blue); color:var(--white); }
 .bg-black{ background-color:var(--black); color:var(--white); }
@@ -50,9 +52,10 @@
 body{ font-family: 'basier', sans-serif; margin:0; padding:0;}
 
 h1,h2,h3,h4,h5,h6{font-weight: 500}
+h1{font-size: 1.65rem;}
 
-p{line-height: 1.5}
-.small{font-size:90%;}
+h1,h2,h3,h4,h5,h6,p{line-height: 1.5; text-align: center;}
+p.small{font-size:90%;}
 
 .clearfix{padding:0 30px;}
 
@@ -61,7 +64,7 @@ p{line-height: 1.5}
 .button.bg-black{background-color:var(--black); color:var(--teal);}
 .button:hover{transform: scale(1.1);}
 
-.hero {position: relative; margin-bottom:30%; padding-top:6rem;}
+.hero {position: relative; margin-bottom:30%; padding-top:5rem;}
 .hero .max-width-4{position: relative;}
 .logo{position: fixed; top:1rem; left:1rem; width:26px; height: auto;}
 .hero .button.absolute{top:1rem; right:1rem;}
@@ -90,8 +93,10 @@ p{line-height: 1.5}
 .hero .block.four img{position: absolute; animation: fadeSeven 20s infinite; transition-timing-function: ease-in-out;}
 .hero .block.four img:last-child{animation: fadeEight 20s infinite; opacity: 0; transform: translateY(40px) scale(0.8); transition-timing-function: ease-in-out;}
 
-.list h3{position: relative; padding-left:30px; margin:0;}
-.list h3 img{position: absolute; width:32px; top:-4px; left:-6px;}
+.list{padding:0 15px 0 45px;}
+.list h3{position: relative; padding-left:26px; margin:0; font-size: 0.9rem;}
+.list p{font-size: .9rem}
+.list h3 img{position: absolute; width:28px; top:-4px; left:-6px;}
 .list p{}
 
 svg {
@@ -172,12 +177,18 @@ svg {
 
 @media screen and (min-width: 40em){
 	h1{font-size: 4rem;}
+  h1,h2,h3,h4,h5,h6,p{text-align: left;}
+  .center h1,.center h2,.center h3,.center h4,.center h5,.center h6,.center p{text-align: center;}
 
-.logo{width:32px;}
-
+  .logo{width:32px;}
 
 	.button{display: inline-block;}
 
 	.hero{padding-top:8rem; padding-bottom: 2rem;}
 	.hero .button{margin:0 5px;}
+  .hero .intro.mb3{margin-bottom:5rem;}
+
+  .list h3{position: relative; padding-left:30px; margin:0;}
+  .list h3 img{position: absolute; width:32px; top:-4px; left:-6px;}
+  .list p{}
 }
