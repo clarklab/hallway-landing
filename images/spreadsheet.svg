@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="613" height="487">
+  <style>
+    @keyframes hand-1_t{0%{transform:translate(176.831488px,-9.267346px) rotate(-6deg) scale(-1,1)}16.6666%{transform:translate(176.831488px,-9.267346px) rotate(-6deg) scale(-1,1);animation-timing-function:cubic-bezier(0,0,.58,1)}26.6666%,70%{transform:translate(206.831488px,30.732654px) rotate(0deg) scale(-1,1);animation-timing-function:cubic-bezier(0,0,.58,1)}83.3333%,to{transform:translate(176.83px,-9.269999px) rotate(-6deg) scale(-1,1)}}@keyframes Rectangle-7_f{0%,66.6667%,to{fill:#d8d8d8}16.6667%{fill:#d8d8d8;animation-timing-function:cubic-bezier(0,0,.58,1)}33.3333%,56.6667%{fill:#ff0056;animation-timing-function:cubic-bezier(0,0,.58,1)}}@keyframes thumb-on-top_t{0%{transform:translate(251.132349px,-13.161289px) rotate(-6deg) scale(-1,1)}16.6666%{transform:translate(251.132349px,-13.161289px) rotate(-6deg) scale(-1,1);animation-timing-function:cubic-bezier(0,0,.58,1)}26.6666%,70%{transform:translate(281.132349px,26.838711px) rotate(0deg) scale(-1,1);animation-timing-function:cubic-bezier(0,0,.58,1)}83.3333%,to{transform:translate(251.135088px,-13.159999px) rotate(-6deg) scale(-1,1)}}@keyframes a0_t{0%{transform:translate(88.672105px,110.084591px);animation-timing-function:cubic-bezier(0,0,.58,1)}16.6666%,53.3333%{transform:translate(-104.972924px,-9.899302px);animation-timing-function:cubic-bezier(0,0,.58,1)}66.6666%{transform:translate(88.672094px,110.084591px);animation-timing-function:cubic-bezier(0,0,.58,1)}to{transform:translate(88.672094px,110.084591px)}}@keyframes Fill-1-Copy_t{0%{transform:rotate(-30deg) translate(-88.672105px,-110.084591px);animation-timing-function:cubic-bezier(0,0,.58,1)}16.6666%,53.3333%{transform:rotate(-19deg) translate(-88.672105px,-110.084591px);animation-timing-function:cubic-bezier(0,0,.58,1)}66.6666%,to{transform:rotate(-30deg) translate(-88.672105px,-110.084591px)}}
+  </style>
+  <g id="Current-Round" fill="none" fill-rule="evenodd">
+    <g id="landing-page" transform="translate(-184 -2746)">
+      <g id="Live-Shared-Docs" transform="translate(177 2746)">
+        <g id="spreadsheet">
+          <path id="letter-page" fill="#FCEFFF" d="M388.331 224.331h188V-36.331h-188z" transform="matrix(0 1 1 0 388.331 -388.331)"/>
+          <path id="hand-1" d="M144.455 237.647c-19.294-8.413-38.363-17.339-57.864-25.273-13.797-5.614-40.863-21.79-53.878-10.411l-8.564 40.605c7.05-6.562 8.306-12.668 18.192-7.577 6.644 3.428 9.466 9.725 10.596 16.726-9.095-2.47-19.08-5.468-28.167-8.571-5.94-2.031-12.224-7.054-17.53-.498-10.396 12.841 24.883 24.491 32.843 28.914 13.528 7.514 23.315 15.266 38.77 18.732 16.287 3.649 30.203-3.93 46.053-5.529 0 0 23.411 3.141 36.863 15.706 13.454 12.565 30.268-3.352 35.313-19.267 5.045-15.914-6.725-29.703-6.725-29.703l-45.902-13.854z" fill="#5793FB" transform="scale(-1 1) rotate(6 0 -1691.702)" style="animation:hand-1_t 3s linear infinite both"/>
+          <g id="cal" transform="translate(165 92)">
+            <path id="Rectangle-7" fill="#D8D8D8" transform="translate(116 71)" style="animation:Rectangle-7_f 3s linear infinite both" d="M0 0h54v39H0z"/>
+            <path id="Rectangle-7-Copy" fill="#D8D8D8" transform="translate(175 71)" d="M0 0h54v39H0z"/>
+            <path id="Rectangle-7-Copy-2" fill="#D8D8D8" transform="translate(235 71)" d="M0 0h54v39H0z"/>
+            <path id="Rectangle-7-Copy-3" fill="#D8D8D8" transform="translate(295 71)" d="M0 0h54v39H0z"/>
+            <path id="Rectangle-7-Copy-7" fill="#D8D8D8" transform="translate(116 116)" d="M0 0h54v39H0z"/>
+            <path id="Rectangle-7-Copy-6" fill="#D8D8D8" transform="translate(175 116)" d="M0 0h54v39H0z"/>
+            <path id="Rectangle-7-Copy-5" fill="#D8D8D8" transform="translate(235 116)" d="M0 0h54v39H0z"/>
+            <path id="Rectangle-7-Copy-4" fill="#D8D8D8" transform="translate(295 116)" d="M0 0h54v39H0z"/>
+            <path id="Rectangle-7-Copy-11" fill="#D8D8D8" transform="translate(116 160)" d="M0 0h54v39H0z"/>
+            <path id="Rectangle-7-Copy-10" fill="#D8D8D8" transform="translate(175 160)" d="M0 0h54v39H0z"/>
+            <path id="Rectangle-7-Copy-9" fill="#D8D8D8" transform="translate(235 160)" d="M0 0h54v39H0z"/>
+            <path id="Rectangle-7-Copy-8" fill="#D8D8D8" transform="translate(295 160)" d="M0 0h54v39H0z"/>
+            <path id="Rectangle-7-Copy-15" fill="#D8D8D8" transform="translate(116 204)" d="M0 0h54v39H0z"/>
+            <path id="Rectangle-7-Copy-21" fill="#2CEDD1" transform="translate(0 71)" d="M0 0h111v153H0z"/>
+            <path id="Rectangle-7-Copy-19" fill="#0002B9" transform="translate(0 71)" d="M0 0h111v39H0z"/>
+            <path id="Rectangle-7-Copy-20" d="M6 0h337a6 6 0 0 1 6 6v51H0V6a6 6 0 0 1 6-6z" fill="#095FEA"/>
+            <path id="Rectangle-7-Copy-18" fill="#0002B9" transform="translate(0 116)" d="M0 0h111v39H0z"/>
+            <path id="Rectangle-7-Copy-17" fill="#0002B9" transform="translate(0 160)" d="M0 0h111v39H0z"/>
+            <path id="Rectangle-7-Copy-16" d="M0 204h111v39H6a6 6 0 0 1-6-6v-33z" fill="#0002B9"/>
+            <path id="Rectangle-7-Copy-14" fill="#D8D8D8" transform="translate(175 204)" d="M0 0h54v39H0z"/>
+            <path id="Rectangle-7-Copy-13" fill="#D8D8D8" transform="translate(235 204)" d="M0 0h54v39H0z"/>
+            <path id="Rectangle-7-Copy-12" d="M295 204h54v33a6 6 0 0 1-6 6h-48v-39z" fill="#FF0056"/>
+          </g>
+          <path id="thumb-on-top" d="M116.826 231.293c6.615 3.407 9.421 9.673 10.546 16.639-9.05-2.455-18.987-5.441-28.034-8.529-5.91-2.017-12.166-7.018-17.448-.492-10.343 12.774 24.766 24.367 32.689 28.768 13.466 7.476 23.206 15.189 38.588 18.637 16.21 3.63 30.057-3.913 45.833-5.501" fill="#5793FB" transform="scale(-1 1) rotate(6 0 -2402.523)" style="animation:thumb-on-top_t 3s linear infinite both"/>
+          <g id="docs-purple-hand-1" fill="#BD10E0" transform="translate(459 284)">
+            <g id="Fill-1-Copy" style="animation:a0_t 3s linear infinite both">
+              <path d="M65.102 144.391c-2.09-7.039-4.346-13.59-7.253-20.445-3.3-7.887-7.48-14.896-8.67-23.536-1.187-8.468-2.31-16.906-3.13-25.469-.813-8.617-1.303-18.997-.368-27.537 2.261-.135 4.81.288 7.003.968 1.93.593 2.37 1.556 2.627 3.625.715 5.777 1.148 11.536 2.096 17.297.539 3.292 1.142 6.574 1.756 9.86.512 2.731.242 5.157 1.397 7.83.846 1.955 2.143 3.422 2.486.382.203-1.793.389-3.583.535-5.383.368-4.512.544-9.041.687-13.57.453-14.765 1.541-29.41 1.297-44.175-.028-1.915.103-3.787.136-5.704.027-1.733-.149-3.523.15-5.231.263-1.534.087-4.156 1.693-4.992 1.457-.755 4.556.622 6.191.615 2.617-.015 3.409-.59 3.943 2.512.582 3.324-.292 6.852-.245 10.196.065 4.402-.17 8.878-.133 13.32.022 2.841-.878 22.608 1.857 23.53 1.015.343 3.894-4.642 4.876-5.5 2.1-1.823 4.784-3.618 7.668-3.521 6.22.204 5.762 7.728 7.305 12.075 1.227-3.891 4.903-7.44 8.942-8.248 4.023-.805 4.577 2.895 5.905 5.968 3.513 8.102 2.701-2.084 4.977-4.275 1.751-1.686 5.155-.391 7.097.403 6.461 2.634 4.811 8.231 5.672 13.752 1.136 7.287.309 14.358-.143 21.736a213.212 213.212 0 0 1-4.139 30.57c-3.389 16.157-5.632 32.657-6.557 49.302-.678 12.304-2.467 26.484-5.821 38.137-5.39 2.863-19.379 4.207-30.844 2.34-7.295-1.173-13.563-3.667-15.977-7.875-3.07-5.413.59-13.784 1.325-19.299 1.781-13.714-.353-26.358-4.34-39.658" transform="rotate(-30 88.672 110.085)" style="animation:Fill-1-Copy_t 3s linear infinite both"/>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
