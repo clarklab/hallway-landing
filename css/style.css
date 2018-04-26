@@ -54,9 +54,10 @@ h1,h2,h3,h4,h5,h6{font-weight: 500}
 p{line-height: 1.5}
 .small{font-size:90%;}
 
-.button{display: block; text-align:center; margin-bottom:1rem;  border-radius:100px; padding:1rem 1.5rem; font-weight: bold; background-color:var(--white); color:var(--black); text-decoration: none; }
+.button{display: block; text-align:center; margin-bottom:1rem;  border-radius:100px; padding:1rem 1.5rem; font-weight: bold; background-color:var(--white); color:var(--black); text-decoration: none; transition:.2s ease transform; }
 .button.bg-blue{background-color:var(--blue); color:var(--white);}
 .button.bg-black{background-color:var(--black); color:var(--teal);}
+.button:hover{transform: scale(1.1);}
 
 .hero {position: relative; margin-bottom:30%; padding-top:6rem;}
 .hero .max-width-4{position: relative;}
