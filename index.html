@@ -7,6 +7,8 @@
 	<link href="https://unpkg.com/basscss@8.0.2/css/basscss.min.css" rel="stylesheet">
 	<link rel="stylesheet" href="css/tingle.min.css">
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/forms.css">
+
 </head>
 
 <body>
@@ -277,13 +279,28 @@
 </footer>
 
 <div class="modal hide" id="login">
-<div class="login center">
+<div class="login modal center">
 	<h2>Hallway</h2>
 	<hr>
 	<p class="light larger">Sign in using your existing account</p>
-	<a href="#" class="button facebook">Log in with Facebook</a>
-	<a href="#" class="button twitter">Log in with Twitter</a>
-	<a href="#" class="button google">Log in with Google</a>
+	<form action="" class="box">
+
+		<label for="user"><i class="fas fa-user"></i>
+			<input type="text" name="user" id="user" placeholder="Username or Email">
+		</label>
+
+		<label for="password"><i class="fas fa-lock"></i>
+			<input type="text" name="password" id="password" placeholder="Password">
+		</label>
+
+		<button type="submit"><img src="images/logo-wide-white.svg" alt="">Log In with Hallway</button>
+	</form>
+
+	<div class="actions box">
+		<a href="#" style="color:#1789FC;">Facebook</a>
+		<a href="#" style="color:#2CB9FA;">Twitter</a>
+		<a href="#" style="color:#D0021B;">Google</a>
+	</div>
 	<p class="mt3"><a href="#" class="underline">Need Help?</a></p>
 </div>
 </div>
@@ -291,6 +308,7 @@
 <script type="text/javascript" src='https://code.jquery.com/jquery-3.2.1.min.js'></script>
 <script type="text/javascript" src='js/scrollreveal.min.js'></script>
 <script type="text/javascript" src="js/tingle.min.js"></script>
+<script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js" integrity="sha384-xymdQtn1n3lH2wcu0qhcdaOpQwyoarkgLVxC/wZ5q7h9gHtxICrpcaSUfygqZGOe" crossorigin="anonymous"></script>
 
 <script>
 
