@@ -1,0 +1,119 @@
+<footer class="clearfix mb4">
+	<div class="max-width-4 mx-auto px3">
+		<div class="sm-col sm-col-1">&nbsp;</div>
+		<div class="sm-col sm-col-4">
+			<h3 class="left-align">Hallway</h3>
+			<a href="#">Twitter</a><br class="xs-hide sm-hide">
+			<a href="#">Facebook</a><br class="xs-hide sm-hide">
+			<a href="#">LinkedIn</a>
+		</div>
+		<div class="sm-col sm-col-6">
+			<p class="small left-align">Etiam porta sem malesuada magna mollis euismod. Lorem ipsum dolor sit amet porta magna. Etiam porta sem malesuada magna mollis euismod. Lorem ipsum dolor sit amet porta magna. Etiam porta sem malesuada magna mollis euismod. Lorem ipsum dolor sit amet porta magna. Etiam porta sem malesuada magna mollis euismod. Lorem ipsum dolor sit amet porta magna.</p>
+		</div>
+		<div class="sm-col sm-col-1">&nbsp;</div>
+	</div>
+</footer>
+
+<div class="modal hide" id="login">
+<div class="login modal center">
+	<h2>Hallway</h2>
+	<hr>
+	<p class="light larger">Sign in using your existing account</p>
+	<form action="" class="box">
+
+		<label for="user">
+			<input type="text" name="user" id="user" placeholder="Username or Email">
+			<i class="fas fa-user"></i>
+		</label>
+
+		<label for="firstname" class="half hide">
+			<input type="text" name="firstname" id="firstname" placeholder="First Name">
+			<i class="fas fa-id-card"></i>
+		</label>
+
+		<label for="lastname" class="half hide">
+			<input type="text" name="lastname" id="lastname" placeholder="Last Name">
+			<i class="fas fa-id-card"></i>
+		</label>
+
+		<label for="password">
+			<input type="text" name="password" id="password" placeholder="Password">
+			<i class="fas fa-lock"></i>
+		</label>
+
+		<button type="submit"><img src="{{ "/assets/images/logo-wide-white.svg" | relative_url }}" alt="">Log In with Hallway</button>
+	</form>
+
+	<div class="actions box">
+		<a href="#" style="color:#1789FC;">Facebook</a>
+		<a href="#" style="color:#2CB9FA;">Twitter</a>
+		<a href="#" style="color:#D0021B;">Google</a>
+	</div>
+	<p class="mt3"><a href="#" class="underline">Need Help?</a></p>
+</div>
+</div>
+
+<script type="text/javascript" src='https://code.jquery.com/jquery-3.2.1.min.js'></script>
+<script type="text/javascript" src='{{ "/assets/js/scrollreveal.min.js" | relative_url }}'></script>
+<script type="text/javascript" src="{{ "/assets/js/tingle.min.js" | relative_url }}"></script>
+<script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js" integrity="sha384-xymdQtn1n3lH2wcu0qhcdaOpQwyoarkgLVxC/wZ5q7h9gHtxICrpcaSUfygqZGOe" crossorigin="anonymous"></script>
+
+<script>
+
+window.sr = ScrollReveal();
+    sr.reveal('.svg-wrap', { duration: 0, distance: '0px', reset: true, 
+      beforeReveal: function (el) {
+        el.classList.add('animated');
+      },
+      beforeReset: function (el) {
+        el.classList.remove('animated');
+      }
+    });
+    sr.reveal(".list .sm-col", {easing: 'ease-in-out'}, 50);
+
+    // instanciate new modal
+var modal = new tingle.modal({
+    footer: false,
+    stickyFooter: false,
+    closeMethods: ['overlay', 'button', 'escape'],
+    closeLabel: "Close",
+    cssClass: ['custom-class-1', 'custom-class-2'],
+    onOpen: function() {
+        console.log('modal open');
+    },
+    onClose: function() {
+        console.log('modal closed');
+    },
+    beforeClose: function() {
+        // here's goes some logic
+        // e.g. save content before closing the modal
+        return true; // close the modal
+        return false; // nothing happens
+    }
+});
+
+// set content
+modal.setContent(document.querySelector('#login').innerHTML);
+
+var login = document.querySelector('.signin');
+
+login.addEventListener('click', function(){
+    modal.open();
+    event.preventDefault();
+});
+
+var learn = document.querySelector('.why');
+
+learn.addEventListener('click', function(){
+    document.querySelector('.feature').scrollIntoView({ 
+	  behavior: 'smooth' 
+	});
+    event.preventDefault();
+});
+
+
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="649" height="487">
+  <style>
+    @keyframes Rectangle-2_f{0%,25%,to{fill:#d8d8d8}15%{fill:#d8d8d8;animation-timing-function:cubic-bezier(0,0,.58,1)}20%{fill:#ff0056;animation-timing-function:cubic-bezier(0,0,.58,1)}}@keyframes mute_t{0%,12.5%,17.5%,to{transform:translate(58px,239px) scale(1,1) translate(-58px,-58px)}15%{transform:translate(58px,239px) scale(.8,.8) translate(-58px,-58px)}}@keyframes a0_t{0%{transform:translate(0,0);animation-timing-function:cubic-bezier(0,0,.58,1)}10%{transform:translate(-406.893002px,156.203276px);animation-timing-function:cubic-bezier(0,0,.367894,.390897)}12.5%{transform:translate(-406.893002px,166.203276px);animation-timing-function:cubic-bezier(.283354,.291988,.619801,.630866)}15%{transform:translate(-406.893005px,154.869583px);animation-timing-function:cubic-bezier(.237395,.390175,.662427,1)}45%{transform:translate(-406.893002px,156.203276px);animation-timing-function:cubic-bezier(0,0,.58,1)}55%,to{transform:translate(.001816px,.001297px)}}@keyframes hand_t{0%{transform:rotate(0deg);animation-timing-function:cubic-bezier(0,0,.58,1)}45%,7.5%{transform:rotate(-25deg);animation-timing-function:cubic-bezier(0,0,.58,1)}52.5%,to{transform:rotate(0deg)}}
+  </style>
+  <g id="scene" fill="none" fill-rule="evenodd">
+    <g id="video" transform="translate(214)">
+      <rect id="Rectangle-2" fill="#D8D8D8" width="435" height="222" rx="6" opacity=".3" style="animation:Rectangle-2_f 4s linear infinite both"/>
+      <path id="Page-1" fill="#FFF" d="M186 77v69l60-34.499z"/>
+    </g>
+    <g id="mute" transform="translate(0 181)" style="animation:mute_t 4s linear infinite both">
+      <g id="button/mute">
+        <g id="mute-button">
+          <ellipse id="Oval-4" fill="#FF0056" rx="58" ry="58" transform="translate(58 58)"/>
+          <path id="Page-1-2" d="M66.895 69.019c1.703 1.485 3.086 2.614 4.63 4.031 8.862-10.284 8.181-19.597-1.418-28.791-1.308 1.341-2.737 2.65-4.045 3.991 7.61 7.302 6.974 14.212.833 20.769zm6.967-29.862l3.874-4.06c13.9 14.552 13.457 31.49 1.3 45.806a5290.224 5290.224 0 0 1-3.76-3.741c10.025-11.52 9.907-26.797-1.414-38.005zM60.86 32.48L39.97 44.666H27.067v26.666H39.97L60.863 83.52l-.002-51.04z" fill="#FFF"/>
+        </g>
+      </g>
+    </g>
+    <g id="target" transform="translate(159 181)">
+      <g id="button/target">
+        <g id="target-button">
+          <ellipse id="Oval-4-2" fill="#2CEDD1" rx="58" ry="58" transform="translate(58 58)"/>
+          <path id="Combined-Shape" d="M70.707 30.087c0 6.537-5.302 11.836-11.84 11.836-6.537 0-11.84-5.3-11.84-11.836 0-6.54 5.303-11.84 11.84-11.84 6.538 0 11.84 5.3 11.84 11.84zm0 17.758c6.537 0 11.837 5.3 11.84 11.837v29.597H35.19V74.482h17.758v8.879l14.797-14.798L52.95 53.766v8.879H35.191v-2.96c0-6.54 5.302-11.84 11.84-11.84h23.676z" fill="#FFF"/>
+        </g>
+      </g>
+    </g>
+    <g id="video-2" transform="translate(318 181)">
+      <g id="button/video">
+        <g id="video-button">
+          <ellipse id="Oval-4-3" fill-opacity=".5" fill="#BD10E0" rx="58" ry="58" transform="translate(58 58)"/>
+          <path id="Combined-Shape-2" d="M77.043 58.799l13.177-9.414v30.12l-13.177-9.414v3.767c0 3.01-2.447 5.648-5.648 5.648h-35.77c-3.201 0-5.648-2.637-5.648-5.648V55.032c0-3.201 2.447-5.647 5.649-5.647h35.769c3.201 0 5.648 2.446 5.648 5.647V58.8zM50.684 37.146a8.47 8.47 0 0 1-8.472 8.472 8.472 8.472 0 1 1 8.472-8.472zm22.592 0a8.47 8.47 0 0 1-8.472 8.472 8.472 8.472 0 1 1 8.472-8.472z" fill="#FFF"/>
+        </g>
+      </g>
+    </g>
+    <g id="hand" style="animation:a0_t 4s linear infinite both">
+      <path d="M333.93 401.916c.059-7.343-.183-14.267-.959-21.672-.849-8.507-2.798-16.432-1.41-25.043 1.341-8.445 2.734-16.842 4.454-25.27 1.741-8.479 4.308-18.549 7.699-26.442 2.201.532 4.514 1.682 6.414 2.973 1.672 1.131 1.811 2.181 1.452 4.235-1.005 5.733-2.275 11.367-3.054 17.154-.446 3.305-.828 6.62-1.203 9.942-.309 2.762-1.275 5.002-.953 7.897.238 2.117 1.049 3.898 2.266 1.092a167.764 167.764 0 0 0 2.085-4.992c1.672-4.207 3.164-8.487 4.625-12.776 4.75-13.987 10.073-27.674 14.155-41.865.534-1.839 1.207-3.592 1.798-5.416.533-1.649.888-3.412 1.674-4.958.699-1.39 1.298-3.949 3.078-4.279 1.613-.296 4.175 1.927 5.741 2.398 2.507.751 3.432.432 3.036 3.555-.416 3.349-2.283 6.468-3.215 9.679-1.226 4.229-2.759 8.441-4.023 12.7-.809 2.723-7.449 21.363-5.102 23.044.869.625 5.08-3.3 6.27-3.834 2.542-1.129 5.633-2.061 8.363-1.125 5.887 2.013 3.25 9.075 3.455 13.684 2.311-3.363 6.864-5.682 10.963-5.274 4.082.406 3.53 4.107 3.902 7.433.99 8.775 3.193-1.203 6.009-2.633 2.168-1.1 5.045 1.134 6.669 2.461 5.409 4.408 2.195 9.278 1.404 14.809-1.045 7.301-3.902 13.822-6.492 20.744a213.006 213.006 0 0 1-12.896 28.025c-7.964 14.46-14.934 29.583-20.685 45.23-4.246 11.569-10.102 24.606-16.717 34.769-5.991 1.162-19.762-1.642-30.18-6.78-6.633-3.254-11.898-7.473-12.977-12.203-1.353-6.074 4.595-13.008 6.91-18.068 5.713-12.594 7.368-25.309 7.444-39.194z" fill="#7EBFFF" style="animation:hand_t 4s linear infinite both"/>
+    </g>
+  </g>
+</svg>
