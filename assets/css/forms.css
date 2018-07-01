@@ -15,7 +15,7 @@
 .box label {display: block;}
 .box label, .box button{position: relative;}
 .box label i, .box label svg{position: absolute; top:50%; transform: translateY(-50%); left:1rem; width:14px !important; height:auto; opacity:.4; transition: .3s ease all;}
-.box button img{top:50%; transform: translateY(-50%); opacity:1; position: absolute; left:.85rem; width:20px !important; height:auto;}
+.box button img{top:50%; transform: translateY(-50%); opacity:1; position: absolute; left:.85rem; width:18px !important; height:auto;}
 .box button{width:100%; border:0; background:var(--blue); color:var(--white); padding:1rem 1rem 1rem 2.5rem; border-radius:0 0 10px 10px; cursor:pointer; transition: .3s ease all;}
 .box button:hover{background: var(--black);}
 .box .half{width:50%; float:left;}

@@ -83,7 +83,7 @@ hr{height: 3px; color:#F3F3F3; background-color: #F3F3F3; border:0; max-width:80
 .underline{border-bottom:2px solid var(--blue); color:#000; text-decoration: none}
 .underline.white{color:var(--white); border-color:var(--white);}
 
-.hero {position: relative; margin-bottom:30%; padding-top:5rem;}
+.hero {position: relative; margin-bottom:40%; padding-top:5rem;}
 .hero .max-width-4{position: relative;}
 .logo{position: fixed; top:1rem; left:1rem; width:22px; height: auto;}
 .hero .absolute{top:1rem; right:1rem;}
@@ -94,7 +94,7 @@ hr{height: 3px; color:#F3F3F3; background-color: #F3F3F3; border:0; max-width:80
 .hero .arms.left{position: absolute; width:16%; bottom:0; left:0; z-index: 20; transform:translateY(25%);}
 .hero .arms.right{position: absolute; width:16%; bottom:0; right:0; z-index: 20; transform:translateY(50%);}
 
-
+.hero .app{border-radius:5px; left:50%; transform:translateX(-50%); width:100%; max-width:60rem;}
 
 .hero .blocks{position: relative; height: 0; padding-top:44%; text-align:left; transform: translateY(50%); margin-top:-25%;}
 .hero .block{width:34%; position: absolute; top:0;}
@@ -206,9 +206,10 @@ svg {
 	.button{display: inline-block;}
   .login .button{display: block; max-width: 280px; margin-left:auto; margin-right:auto;}
 
-	.hero{padding-top:8rem; padding-bottom: 2rem;}
+	.hero{padding-top:8rem; padding-bottom: 2rem; margin-bottom:55%;}
 	.hero .button{margin:0 5px;}
-  .hero .intro.mb3{margin-bottom:5rem;}
+  .hero .intro.mb3{margin-bottom:3.5rem;}
+  .hero .app{border-radius:10px;}
 
   .list h3{position: relative; padding-left:30px; margin:0;}
   .list h3 img{position: absolute; width:32px; top:-4px; left:-6px;}
@@ -219,6 +220,12 @@ svg {
 
 @media screen and (min-width: 52rem){
   .tingle-modal-box{width:50%;}
+.hero{margin-bottom:55%;}
+
+}
+
+@media screen and (min-width: 60rem){
+.hero{margin-bottom:38rem}
 }
 
 @media screen and (max-width:40em){
