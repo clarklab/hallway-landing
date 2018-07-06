@@ -8,16 +8,17 @@
 
 .modal .box{max-width:20rem; margin:0 auto; margin-bottom:1rem;}
 
-.box *{font-size:13px; font-family: 'basier', sans-serif; box-sizing: border-box; text-align: left;}
+.box *{font-size:14px; font-family: 'basier', sans-serif; box-sizing: border-box; text-align: left;}
 .box input{border:3px solid var(--gray); border-top:0; width:100%; padding:1rem 1rem 1rem 2.5rem;}
 .box label:first-child input{border:3px solid var(--gray); border-radius:10px 10px 0 0;}
 .box label:nth-last-child(2) input{border-bottom:0;}
+.box.single label input{border-bottom:0;}
 .box label {display: block;}
 .box label, .box button{position: relative;}
 .box label i, .box label svg{position: absolute; top:50%; transform: translateY(-50%); left:1rem; width:14px !important; height:auto; opacity:.4; transition: .3s ease all;}
-.box button img{top:50%; transform: translateY(-50%); opacity:1; position: absolute; left:.85rem; width:18px !important; height:auto;}
-.box button{width:100%; border:0; background:var(--blue); color:var(--white); padding:1rem 1rem 1rem 2.5rem; border-radius:0 0 10px 10px; cursor:pointer; transition: .3s ease all;}
-.box button:hover{background: var(--black);}
+.box button img, .box input[type="submit"] img{top:50%; transform: translateY(-50%); opacity:1; position: absolute; left:.85rem; width:15px !important; height:auto;}
+.box button, .box input[type="submit"] {width:100%; border:0; background:var(--blue); color:var(--white); padding:1rem 1rem 1rem 2.5rem; border-radius:0 0 10px 10px; cursor:pointer; transition: .3s ease all;}
+.box button:hover, .box input[type="submit"]:hover{background: var(--black);}
 .box .half{width:50%; float:left;}
 .box .half input{width:100%;}
 .box .half ~ .half input{border-left:0;}

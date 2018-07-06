@@ -61,7 +61,7 @@ p.small{font-size:90%;}
 p.larger{font-size:120%;}
 .light{opacity: .3;}
 
-hr{height: 3px; color:#F3F3F3; background-color: #F3F3F3; border:0; max-width:80%;}
+hr{height: 3px; color:#F3F3F3; background-color: #F3F3F3; border:0; max-width:30%;}
 
 .clearfix{padding:0 20px;}
 .team.clearfix{padding:0;}
