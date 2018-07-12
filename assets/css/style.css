@@ -1,16 +1,16 @@
 @font-face {
     font-family: 'gordita';
-    src: url('gordita-regular-webfont.woff2') format('woff2'),
-         url('gordita-regular-webfont.woff') format('woff');
+    src: url('fonts/gordita-regular-webfont.woff2') format('woff2'),
+         url('fonts/gordita-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
 }
 
 @font-face {
-    font-family: 'gordita';
-    src: url('gordita-medium-webfont.woff2') format('woff2'),
-         url('gordita-medium-webfont.woff') format('woff');
+    font-family: 'gordita-medium';
+    src: url('fonts/gordita-medium-webfont.woff2') format('woff2'),
+         url('fonts/gordita-medium-webfont.woff') format('woff');
     font-weight: 500;
     font-style: normal;
 
@@ -18,8 +18,8 @@
 
 @font-face {
     font-family: 'gordita';
-    src: url('gordita-bold-webfont.woff2') format('woff2'),
-         url('gordita-bold-webfont.woff') format('woff');
+    src: url('fonts/gordita-bold-webfont.woff2') format('woff2'),
+         url('fonts/gordita-bold-webfont.woff') format('woff');
     font-weight: bold;
     font-style: normal;
 
@@ -45,9 +45,9 @@ a{text-decoration: none; color:var(--blue); outline:none; border:0;}
 
 body{ font-family: 'gordita', sans-serif; margin:0; padding:0;}
 
-h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{font-weight: 500;}
+h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{font-weight: 500; font-family: 'gordita-medium'}
 h1{font-size: 1.65rem;}
-h2{font-size:1..65rem;}
+h2{font-size:1.65rem;}
 
 h1,h2,h3,h4,h5,h6,p{line-height: 1.5; text-align: center;}
 p.small{font-size:90%;}
