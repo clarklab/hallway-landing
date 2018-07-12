@@ -1,35 +1,28 @@
-
 @font-face {
-    font-family: 'basier';
-    src: url('fonts/basiersquare-regular-webfont.eot');
-    src: url('fonts/basiersquare-regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/basiersquare-regular-webfont.woff2') format('woff2'),
-         url('fonts/basiersquare-regular-webfont.woff') format('woff'),
-         url('fonts/basiersquare-regular-webfont.ttf') format('truetype');
+    font-family: 'gordita';
+    src: url('gordita-regular-webfont.woff2') format('woff2'),
+         url('gordita-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+
 }
 
 @font-face {
-    font-family: 'basier';
-    src: url('fonts/basiersquare-medium-webfont.eot');
-    src: url('fonts/basiersquare-medium-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/basiersquare-medium-webfont.woff2') format('woff2'),
-         url('fonts/basiersquare-medium-webfont.woff') format('woff'),
-         url('fonts/basiersquare-medium-webfont.ttf') format('truetype');
+    font-family: 'gordita';
+    src: url('gordita-medium-webfont.woff2') format('woff2'),
+         url('gordita-medium-webfont.woff') format('woff');
     font-weight: 500;
     font-style: normal;
+
 }
 
 @font-face {
-    font-family: 'basier';
-    src: url('fonts/basiersquare-bold-webfont.eot');
-    src: url('fonts/basiersquare-bold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/basiersquare-bold-webfont.woff2') format('woff2'),
-         url('fonts/basiersquare-bold-webfont.woff') format('woff'),
-         url('fonts/basiersquare-bold-webfont.ttf') format('truetype');
+    font-family: 'gordita';
+    src: url('gordita-bold-webfont.woff2') format('woff2'),
+         url('gordita-bold-webfont.woff') format('woff');
     font-weight: bold;
     font-style: normal;
+
 }
 
 :root {
@@ -50,9 +43,9 @@ a{text-decoration: none; color:var(--blue); outline:none; border:0;}
 .line-height-1{line-height: 1.5;}
 
 
-body{ font-family: 'basier', sans-serif; margin:0; padding:0;}
+body{ font-family: 'gordita', sans-serif; margin:0; padding:0;}
 
-h1,h2,h3,h4,h5,h6{font-weight: 500}
+h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{font-weight: 500;}
 h1{font-size: 1.65rem;}
 h2{font-size:1..65rem;}
 
@@ -225,7 +218,7 @@ svg {
 }
 
 @media screen and (min-width: 60rem){
-.hero{margin-bottom:38rem}
+.hero{margin-bottom:33rem}
 }
 
 @media screen and (max-width:40em){
