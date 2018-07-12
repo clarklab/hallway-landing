@@ -218,7 +218,7 @@ svg {
 }
 
 @media screen and (min-width: 60rem){
-.hero{margin-bottom:33rem}
+.hero{margin-bottom:30rem}
 }
 
 @media screen and (max-width:40em){
