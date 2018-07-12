@@ -190,7 +190,7 @@ svg {
 .tingle-modal__close{background-color: transparent;}
 
 @media screen and (min-width: 40em){
-	h1{font-size: 3.2rem;}
+	h1{font-size: 3.2rem;} 
   h1,h2,h3,h4,h5,h6,p{text-align: left;}
   .center h1,.center h2,.center h3,.center h4,.center h5,.center h6,.center p{text-align: center;}
 
