@@ -78,7 +78,7 @@ hr{height: 3px; color:#F3F3F3; background-color: #F3F3F3; border:0; max-width:30
 
 .hero {position: relative; margin-bottom:40%; padding-top:5rem;}
 .hero .max-width-4{position: relative;}
-.logo{position: fixed; top:1rem; left:1rem; width:22px; height: auto;}
+.landing .logo{position: fixed; top:1rem; left:1rem; width:22px; height: auto;}
 .hero .absolute{top:1rem; right:1rem;}
 
 .clipper{position: absolute; top:0; left:0; right:0; bottom:0; clip: rect(0, auto, auto, 0);}
@@ -109,6 +109,23 @@ hr{height: 3px; color:#F3F3F3; background-color: #F3F3F3; border:0; max-width:30
 .list h3{position: relative; padding-left:26px; margin:0;}
 .list h3 img{position: absolute; width:28px; top:-4px; left:-6px;}
 
+.single .header {position: relative;}
+.single .header .main{padding:0 1rem; overflow: scroll; position: relative;}
+.single .header .main a:not(:first-child){color:var(--white); padding:1.5rem; display: inline-block; position: relative; white-space: nowrap;}
+.single .header .main a:not(:first-child):not(.current):hover{background-color: rgba(0,0,0,0.2)}
+.single .header .main a.current{background-color: var(--white); color:var(--blue);}
+.single .header .main .logo{width:20px; height:auto; display: inline-block; padding:0; margin:0 1rem 0 0;}
+
+.single .header .mainzz:after{content:" "; display: block; position: absolute; top:0; bottom:0; background-image: linear-gradient(270deg, #095FEA 0%, rgba(9,95,234,0.00) 100%); width:40px; right:0;}
+
+.single .header {position: relative;}
+.single .header .section{padding:0 1rem; border-bottom:1px solid var(--gray); overflow: scroll; position: relative;}
+.single .header .section a{color:var(--blue); padding:1rem; display: inline-block; position: relative; font-size:14px; white-space: nowrap;}
+.single .header .section a:first-child{padding-left:0}
+.single .header .section a:after{content:" "; display: block; position: absolute; left:1rem; right:1rem; height:3px; bottom:0;}
+.single .header .section a:hover{color:var(--black);}
+.single .header .section a:hover:after{background-color: var(--gray);}
+.single .header .section a.current:after{background-color: var(--blue); left:0;}
 
 svg {
     display:block;
@@ -194,7 +211,7 @@ svg {
   h1,h2,h3,h4,h5,h6,p{text-align: left;}
   .center h1,.center h2,.center h3,.center h4,.center h5,.center h6,.center p{text-align: center;}
 
-  .logo{width:32px;}
+  .landing .logo{width:32px;}
 
 	.button{display: inline-block;}
   .login .button{display: block; max-width: 280px; margin-left:auto; margin-right:auto;}
@@ -213,7 +230,7 @@ svg {
 
 @media screen and (min-width: 52rem){
   .tingle-modal-box{width:50%;}
-.hero{margin-bottom:55%;}
+  .hero{margin-bottom:55%;}
 
 }
 
