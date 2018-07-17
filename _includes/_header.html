@@ -5,9 +5,11 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Hallway</title>
 	<link href="https://unpkg.com/basscss@8.0.2/css/basscss.min.css" rel="stylesheet">
-	<link rel="stylesheet" href='{{ "assets/css/tingle.min.css" }}'>
-	<link rel="stylesheet" href='{{ "assets/css/style.css" }}'>
-	<link rel="stylesheet" href='{{ "assets/css/forms.css" }}'>
+
+	{% include _base.html %}
+	<link rel="stylesheet" href='{{base}}/assets/css/tingle.min.css'>
+	<link rel="stylesheet" href='{{base}}/assets/css/style.css'>
+	<link rel="stylesheet" href='{{base}}/assets/css/forms.css'>
 
 	<link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicon/apple-touch-icon.png">
 	<link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon/favicon-32x32.png">
