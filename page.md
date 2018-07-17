@@ -4,4 +4,6 @@
 
 layout: page
 permalink: /page/
+image: group.png
+
 ---
